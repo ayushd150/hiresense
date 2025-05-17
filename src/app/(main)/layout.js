@@ -1,4 +1,4 @@
-import { UserProvider } from "@/context/UserContext";
+import { UserProvider } from "../../context/UserContext";
 import DashboardProvider from "./provider.js";
 const DashboardLayout = ({ children }) => {
   return (

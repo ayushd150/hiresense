@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "../../../../components/ui/button";
 import {  ArrowRight, Copy, Send } from "lucide-react";
 import moment from "moment";
 import Link from "next/link";

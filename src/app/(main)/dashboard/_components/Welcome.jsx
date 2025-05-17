@@ -1,5 +1,5 @@
 "use client";
-import { useUser } from "@/context/UserContext";
+import { useUser } from "../../../../context/UserContext";
 import Image from "next/image";
 import React from "react";
 

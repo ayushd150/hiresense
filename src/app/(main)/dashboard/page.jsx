@@ -1,6 +1,6 @@
 import CreateOptions from "./_components/CreateOptions";
 import InterviewList from "./_components/InterviewList";
-import { UserProvider } from "@/context/UserContext";
+import { UserProvider } from "../../../context/UserContext";
 const Dashboard = () => {
   return (
     <UserProvider>

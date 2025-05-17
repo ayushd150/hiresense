@@ -1,7 +1,7 @@
 "use client";
-import { sb } from "@/app/services/supabaseClient";
-import { Button } from "@/components/ui/button";
-import { useUser } from "@/context/UserContext";
+import { sb } from "../../../services/supabaseClient";
+import { Button } from "../../../../components/ui/button";
+import { useUser } from "../../../../context/UserContext";
 import { Camera } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import InterviewListComponent from "./InterviewListComponent";
