@@ -1,12 +1,12 @@
 "use client";
-import { Progress } from "@/components/ui/progress";
+import { Progress } from "../../../../components/ui/progress";
 import {  ArrowLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import Form from "./_components/Form";
 import QuestionList from "./_components/QuestionList";
 import InterviewLink from "./_components/InterviewLink";
-import { UserProvider } from "@/context/UserContext";
+import { UserProvider } from "../../../../context/UserContext";
 
 const CreateInterview = () => {
   const [steps, setsteps] = useState(1);

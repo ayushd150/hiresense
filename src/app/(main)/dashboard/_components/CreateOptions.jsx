@@ -6,7 +6,7 @@ const CreateOptions = () => {
   return (
     <div className=" px-4">
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-8 text-center">
-        Start a New Hiring Process
+        Start a New Hiring Process 
       </h2>
       <div className=" max-w-4xl mx-auto">
         <Link

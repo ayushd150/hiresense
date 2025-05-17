@@ -1,5 +1,5 @@
 "use client";
-import { InterviewTypes } from "@/app/services/Constant";
+import { InterviewTypes } from "../../../../services/Constant";
 import React, { useEffect, useState } from "react";
 import { toast } from "sonner";
 
