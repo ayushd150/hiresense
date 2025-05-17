@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from "react";
-import { sb } from "@/app/services/supabaseClient";
+import { sb } from "../app/services/supabaseClient";
 
 const UserContext = createContext();
 
