@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import { Cpu, Lightbulb, Briefcase, Users, UserCheck } from "lucide-react";
 
-export const sidebarOPtions = [
+export const sidebarOptions = [
   {
     name: "Dashboard",
     icon: <LayoutDashboard />,
